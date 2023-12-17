@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'hero-bg':"url('/images/Ellipse.png')"
+      },
+      colors:{
+        'primaryColor':'#524FD5',
+        'secondaryColor':'#666680'
+      }
+    },
   },
   plugins: [],
 }
