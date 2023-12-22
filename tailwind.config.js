@@ -10,7 +10,7 @@ export default {
         'hero-bg':"url('/images/Ellipse.png')"
       },
       colors:{
-        'primaryColor':'#524FD5',
+        'primaryColor':'#7077e4',
         'secondaryColor':'#666680'
       }
     },

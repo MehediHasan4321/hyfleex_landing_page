@@ -1,11 +1,17 @@
 import React from 'react';
 import Hero from '../Hero';
+import Value from '../Value';
+import Course from '../Course';
+import AboutUs from '../AboutUs';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Hero/>
-        </div>
+            <Value/>
+            <Course/>
+            <AboutUs/>
+        </>
     );
 };
 
